@@ -27,8 +27,9 @@ class TestingTypeListviewState extends State<TestingTypeListview> {
 
         return ListTile(
           leading: Checkbox(
+            key: Key('checkbox_$index'),
             value: isChecked,
-            onChanged: (bool? ckeckState) {
+            onChanged: (bool? checkState) {
               setState(() {
                 _checkboxModel.toggleCheck(index);
               });
