@@ -7,7 +7,8 @@ Thanks for visiting! This repository contains a simple Flutter application that 
 - **Unit Tests:** Verify the core logic of your app.
 - **Widget Tests:** Ensure that your UI components function correctly.
 - **Golden Tests:** Check that your widgets' visual appearance remains consistent.
-
+- **Integration Tests:** Test the app's complete user flow and interactions.
+  
 ## Getting Started
 
 ### Prerequisites
